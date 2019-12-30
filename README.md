@@ -1,4 +1,4 @@
-# ShellProgramming
+# Shell Programming
 
 
 Bu proje üç programdan oluşmaktadır. Ana program “accountant” ismindedir. Bu program yapılacak
@@ -17,12 +17,11 @@ Kabul ettiği komutlar ve parametreler gösterilmektedir.
 * Gelen parametreleri “calc” isimli programa gönderir.
 * “calc” isimli program “database.txt” isimli dosyadan sayılar okuyup toplamaktadır.
 * Bu komut eğer önünde “-s” varsa önündeki “database.txt” isimli dosyadan iki sayının indexinde bulunan iki sayıyı toplar.
-o Eğer önünde “-r” varsa “database.txt” isimli dosyadan iki sayı indeksi arasında bulunan tüm sayıları toplar.
-o Eğer index rakamları aşılmış ya da bir hata durumunda program hata döndürür.
-o Bu işlem için “calculate” isimli bir program yazılmalı ve ana programdan fork ile çağırılmadır.
-o Sonuç değeri exit içinde döndürülebilir.
-o Negatif değerler hata durumları içindir.
- readall: “database.txt” dosyasının tamamını ekrana yazdırır (cat programı çağırılabilir(komut değil
-programı)).
- clear: ekranı temizler
- exit :programdan çıkar.
+* Eğer önünde “-r” varsa “database.txt” isimli dosyadan iki sayı indeksi arasında bulunan tüm sayıları toplar.
+* Eğer index rakamları aşılmış ya da bir hata durumunda program hata döndürür.
+* Bu işlem için “calculate” isimli bir program yazılmalı ve ana programdan fork ile çağırılmadır.
+* Sonuç değeri exit içinde döndürülebilir.
+* Negatif değerler hata durumları içindir.
+* readall: “database.txt” dosyasının tamamını ekrana yazdırır (cat programı çağırılabilir(komut değil programı)).
+* clear: ekranı temizler
+* exit :programdan çıkar.
